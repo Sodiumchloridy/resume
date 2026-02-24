@@ -22,16 +22,7 @@
 
 
 %----------FONT OPTIONS----------
-% sans-serif
 % \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -106,16 +97,13 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    % \scshape removed to prevent font error
+    \textbf{\Huge Bryan Lee Wen Swen} \\ \vspace{1pt}
+    \small (+60) 10 650 6632 $|$ 
+    \href{mailto:bryanlee13579@gmail.com}{\underline{bryanlee13579@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/bryan-lee-wen-swen/}{\underline{linkedin.com/in/bryan-lee-wen-swen}} $|$
+    \href{https://github.com/Sodiumchloridy}{\underline{github.com/Sodiumchloridy}}
 \end{center}
 
 
@@ -123,11 +111,8 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {Universiti Tunku Abdul Rahman}{Sungai Long, Selangor}
+      {Bachelor of Science, Software Engineering (Honours) $|$ CGPA: 3.85/4.0}{Expected Jun 2026}
   \resumeSubHeadingListEnd
 
 
@@ -136,43 +121,31 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Software Engineering Intern (PaySuite Department)}{Jun 2025 -- Present}
+      {Worldline International}{Kuala Lumpur, Malaysia}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Architected and pioneered a Playwright automation test suite, reducing reliance on manual regression testing and enabling continuous integration checks for a credit card processing platform.}
+        \resumeItem{Developed a Retrieval-Augmented Generation (RAG) chatbot using LLMs to automate internal FAQ retrieval; experimented with embedding models to optimize performance for resource-constrained environments.}
+        \resumeItem{Engineered a document conversion pipeline to automatically turn user manuals documents into a modern documentation website.}
+        \resumeItem{Maintained and optimized a full-stack payments platform (Angular/Spring Boot); resolved complex production bugs including pagination logic failures, indeterminate checkbox states, and backend user deletion constraints.}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Undergraduate Research Assistant (Part-time)}{Sep 2024 -- Jun 2025}
+      {Universiti Tunku Abdul Rahman}{Sungai Long, Selangor}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
+        \resumeItem{Co-authored ``Enhancing Deepfake Detection Generalization: A Scalable and Real-Time Detection'', a paper published in Springer's Lecture Notes in Networks and Systems (LNNS) (Scopus Indexed).}
+        \resumeItem{Fine-tuned a YOLOv11 computer vision model on Tesla P100 GPUs, achieving 96.7\% validation accuracy in detecting AI-generated faces across mixed datasets.}
+        \resumeItem{Engineered an end-to-end data pipeline for dataset curation (FFHQ), augmentation, and real-time inference benchmarking using Generative Adversarial Networks (PGGAN).}
+      \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Freelance Full Stack Developer}{Oct 2024 -- Sep 2025}
+      {Treehole Story}{Remote}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+        \resumeItem{Led a major framework upgrade from Next.js 14 to 15, refactoring 8,400+ lines of code to resolve breaking changes, update UI components and improve functionality.}
+        \resumeItem{Designed and implemented a nested/threaded comments system on the Laravel backend by introducing parent-child comment relationships and restructuring API endpoints.}
+        \resumeItem{Resolved production bugs including broken pagination controls and login modal triggers; added responsive mobile layouts, emoji keyboard support, and page animations.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -182,35 +155,34 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Manga-Website} $|$ \emph{Next.js, MongoDB, Tailwind CSS, External APIs}}{}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{Built a responsive full-stack manga discovery and reading platform with server-side rendering.}
+            \resumeItem{Integrated external REST APIs for content retrieval and implemented server-side caching to reduce redundant API calls and improve page load performance.}
+            \resumeItem{Implemented internationalization (i18n) to support multiple languages for a global user base.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
+%-----------HONORS & AWARDS-----------
+% Corrected list structure
+\section{Honors \& Awards}
+\resumeItemListStart
+    \resumeItem{First Prize in Competition for Artificial Intelligence Generated Content (AIGC) 2023 in Fu Zhou, China}
+    \resumeItem{1st Runner-up, Ethereum Kuala Lumpur 2023 Hackathon: Aleo Bounty Track}
+    \resumeItem{Top 20\% Globally (Stage 1), WorldQuant International Quant Championship 2024}
+\resumeItemListEnd
 
-%
-%-----------PROGRAMMING SKILLS-----------
+
+%-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
+    \item\small{
+        \textbf{Languages}{: Java, JavaScript/TypeScript, Python, C++, PHP (Laravel), HTML/CSS, SQL} \\
+        \textbf{Frameworks}{: Spring Boot, Angular, React, Next.js, PyTorch, Tailwind CSS} \\
+        \textbf{Tools \& Platforms}{: Docker, Apache Kafka, Git/GitLab, PostgreSQL, Cypress, DBeaver, Ollama, LiteLLM} \\
+        \textbf{Spoken Languages}{: English, Chinese, Malay, Hokkien/Cantonese (Conversational)}
+    }
  \end{itemize}
 
 
