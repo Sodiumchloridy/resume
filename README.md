@@ -1,4 +1,4 @@
-# Bryan Lee Wen Swen's Resume
+# Resume
 
 This repository contains the LaTeX source code for my personal resume. Adapted from the [jakegut/resume](https://github.com/jakegut/resume) template.
 
